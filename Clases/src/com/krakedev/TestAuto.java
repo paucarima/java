@@ -11,7 +11,7 @@ public class TestAuto {
 		 */
 		Auto auto1=new Auto();
 		Auto auto2=new Auto();
-		//3.Modificar los atributos
+		//2.1.Modificar los atributos
 				auto1.marca="Mercedes Benz";
 				auto1.anio=2010;
 				auto1.precio=35000.80;
@@ -32,15 +32,6 @@ public class TestAuto {
 				
 		
 		
-		 /* 3. Crear una clase
-		 * Producto con los atributos nombre - String descripcion - String precio -
-		 * punto flotante stockActual - entero 4. Crear una clase TestProducto con un
-		 * main, dentro del mismo: Crear 3 variables de tipo Producto, llamadas
-		 * productoA, productoB, productoC Instanciar 3 objetos producto y referenciar
-		 * cada uno con una de las variables del paso anterior Modificar los atributos
-		 * de cada producto, con productos que hay en una farmacia Mostrar en pantalla
-		 * los valores de los atributos de los 3 objetos
-		 */
 
 	}
 
