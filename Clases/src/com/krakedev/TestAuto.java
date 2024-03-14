@@ -12,22 +12,24 @@ public class TestAuto {
 		Auto auto1=new Auto();
 		Auto auto2=new Auto();
 		//2.1.Modificar los atributos
-				auto1.marca="Mercedes Benz";
-				auto1.anio=2010;
-				auto1.precio=35000.80;
+				auto1.setMarca("Mercedes Benz");
+				auto1.setAnio(2010);
+				auto1.setPrecio(35000.80);
 				
-				auto2.marca="Toyota";
-				auto2.anio=2000;
-				auto2.precio=45000.80;
+				auto2.setMarca("Toyota");
+				auto2.setAnio(2000);
+				auto2.setPrecio(45000.80);
+				
+			
 				
 				System.out.println("Auto 1 ----------------");
-				System.out.println("Nombre: "+auto1.marca);
-				System.out.println("Año: "+auto1.anio);
-				System.out.println("Precio: "+auto1.precio);
+				System.out.println("Nombre: "+auto1.getMarca());
+				System.out.println("Año: "+auto1.getAnio());
+				System.out.println("Precio: "+auto1.getPrecio());
 				System.out.println("Auto 2 ----------------");
-				System.out.println("Nombre: "+auto2.marca);
-				System.out.println("Año: "+auto2.anio);
-				System.out.println("Precio: "+auto2.precio);
+				System.out.println("Nombre: "+auto2.getMarca());
+				System.out.println("Año: "+auto2.getAnio());
+				System.out.println("Precio: "+auto2.getAnio());
 				
 				
 		

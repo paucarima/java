@@ -4,28 +4,24 @@ public class TestCalculadora {
 
 	public static void main(String[] args) {
 		Calculadora calcu;
-		int resultadoSuma;
-		int resultadoResta;
-		double resultadoMulti;
-		double resultadoDividir;
-		double resultadoPromedio;
+	
 	
 		
 		calcu=new Calculadora();
 		
-		resultadoSuma=calcu.sumar(5, 3);
-		resultadoResta=calcu.restar(10, 3);
-		resultadoMulti=calcu.multiplicar(10, 5);
-		resultadoDividir=calcu.dividir(10, 2);
-		resultadoPromedio=calcu.promediar(8, 9, 10);
+		calcu.sumar(5, 3); 
+		calcu.restar(10, 3);
+		calcu.multiplicar(10, 5);
+		calcu.dividir(10, 2);
+		calcu.promediar(8, 9, 10);
 		
 		
 		
-		System.out.println("Resultado SUMA: "+resultadoSuma);
-		System.out.println("Resultado RESTA: "+resultadoResta);
-		System.out.println("Resultado MULTIPLICAR: "+resultadoMulti);
-		System.out.println("Resultado DIVIDIR: "+resultadoDividir);
-		System.out.println("Resultado PROMEDIO: "+resultadoPromedio);
+		System.out.println("Resultado SUMA: "+calcu.getResultadoSuma());
+		System.out.println("Resultado RESTA: "+calcu.getResultadoResta());
+		System.out.println("Resultado MULTIPLICAR: "+calcu.getResultadoMulti());
+		System.out.println("Resultado DIVIDIR: "+calcu.getResultadoDivi());
+		System.out.println("Resultado PROMEDIO: "+calcu.getResultadoPro());
 		System.out.println("Resultado MENSAJE: ");
 		calcu.mostrarResultados();
 

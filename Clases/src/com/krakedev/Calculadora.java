@@ -1,17 +1,65 @@
 package com.krakedev;
 
 public class Calculadora {
+	private int resultadoSuma;
+	private int resultadoResta;
+	private double resultadoMulti;
+	private double resultadoDivi;
+	private double resultadoPro;
+	
+	
+	public int getResultadoSuma() {
+		return resultadoSuma;
+	}
+
+	public void setResultadoSuma(int resultadoSuma) {
+		this.resultadoSuma = resultadoSuma;
+	}
+
+	public int getResultadoResta() {
+		return resultadoResta;
+	}
+
+	public void setResultadoResta(int resultadoResta) {
+		this.resultadoResta = resultadoResta;
+	}
+
+	public double getResultadoMulti() {
+		return resultadoMulti;
+	}
+
+	public void setResultadoMulti(double resultadoMulti) {
+		this.resultadoMulti = resultadoMulti;
+	}
+
+	public double getResultadoDivi() {
+		return resultadoDivi;
+	}
+
+	public void setResultadoDivi(double resultadoDivi) {
+		this.resultadoDivi = resultadoDivi;
+	}
+
+	public double getResultadoPro() {
+		return resultadoPro;
+	}
+
+	public void setResultadoPro(double resultadoPro) {
+		this.resultadoPro = resultadoPro;
+	}
+	
+	/****************************/
 
 	public int sumar(int valor1, int valor2) {
-		int resultado;// declarara la variable
-		resultado = valor1 + valor2;
-		return resultado;
+	
+		resultadoSuma = valor1 + valor2;
+		return resultadoSuma;
 	}
 
 	public int restar(int valor1, int valor2) {
-		int resultado;// declarara la variable
-		resultado = valor1 - valor2;
-		return resultado;
+	
+		resultadoResta = valor1 - valor2;
+		return resultadoResta;
 	}
 
 	/*
@@ -23,9 +71,9 @@ public class Calculadora {
 	 */
 
 	public double multiplicar(double valor1, double valor2) {
-		double resultado;
-		resultado = valor1 * valor2;
-		return resultado;
+		
+		 resultadoMulti = valor1 * valor2;
+		return  resultadoMulti;
 	}
 
 	/*
@@ -38,9 +86,9 @@ public class Calculadora {
 	 */
 
 	public double dividir(double valor1, double valor2) {
-		double resultado;
-		resultado = valor1 / valor2;
-		return resultado;
+		
+		resultadoDivi = valor1 / valor2;
+		return resultadoDivi;
 	}
 
 	/*
@@ -54,9 +102,9 @@ public class Calculadora {
 	 */
 
 	public double promediar(double valor1, double valor2, double valor3) {
-		double resultado;
-		resultado = (valor1 + valor2+ valor3)/3;
-		return resultado;
+
+		resultadoPro = (valor1 + valor2+ valor3)/3;
+		return resultadoPro;
 	}
 	
 	public void  mostrarResultados() {
