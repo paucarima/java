@@ -9,16 +9,16 @@ public class TestAuto {
 		 * de los atributos de cada auto Mostrar los valores de los atributos de los dos
 		 * autos en consola Si todo funciona ok hacer un commit 
 		 */
-		Auto auto1=new Auto();
-		Auto auto2=new Auto();
+		Auto auto1=new Auto("Mercedes Benz",2010,35000.80);
+		Auto auto2=new Auto("Toyota",2000,45000.80);
 		//2.1.Modificar los atributos
-				auto1.setMarca("Mercedes Benz");
+				/*auto1.setMarca("Mercedes Benz");
 				auto1.setAnio(2010);
 				auto1.setPrecio(35000.80);
 				
 				auto2.setMarca("Toyota");
 				auto2.setAnio(2000);
-				auto2.setPrecio(45000.80);
+				auto2.setPrecio(45000.80);*/
 				
 			
 				

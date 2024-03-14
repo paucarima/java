@@ -10,11 +10,11 @@ public class TestProducto {
 	 * de cada producto, con productos que hay en una farmacia Mostrar en pantalla
 	 * los valores de los atributos de los 3 objetos*/
 		
-		Producto  productoA = new Producto();
-		Producto  productoB = new Producto();
-		Producto  productoC = new Producto();
+		Producto  productoA = new Producto("Paracetamol","fiebre",1.5,5);
+		Producto  productoB = new Producto("Ibuprofeno","dolor muscular",0.45,12);
+		Producto  productoC = new Producto("Femen","dolor de abdomen",0.50,120);
 
-		productoA.setNombre("Paracetamol");
+		/*productoA.setNombre("Paracetamol");
 		productoA.setDescripcion("fiebre");
 		productoA.setPrecio(1.5);
 		productoA.setStockActual(5);
@@ -27,7 +27,7 @@ public class TestProducto {
 		productoC.setNombre("Femen");
 		productoC.setDescripcion("dolor de abdomen");
 		productoC.setPrecio(0.50);
-		productoC.setStockActual(120);
+		productoC.setStockActual(120);*/
 		
 		
 		System.out.println("Producto A-----------------");
