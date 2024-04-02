@@ -11,6 +11,13 @@ public class Profesor {
 		this.nombre = nombre;
 	}
 	
+
+	public Profesor(int codigo) {
+		super();
+		this.codigo = codigo;
+	
+	}
+	
 	
 	
 	public Profesor() {
@@ -34,7 +41,8 @@ public class Profesor {
 
 	@Override
 	public String toString() {
-		return "Profesor [codigo=" + codigo + ", nombre=" + nombre + "]";
+		//return "Profesor [codigo=" + codigo + ", nombre=" + nombre + "]";
+		return "Profesor [codigo=" + codigo + "]";
 	}
 	
 	
